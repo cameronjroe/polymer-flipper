@@ -1,0 +1,14 @@
+{
+  "name": "polymer-flipper",
+  "version": "0.1.0",
+  "homepage": "https://github.com/cameronjroe/polymer-flipper",
+  "authors": [
+    "Cameron J Roe <cameronjroe@gmail.com>"
+  ],
+  "description": "A simple polymer element with a built-in flip effect.",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "polymer": "~0.5.2"
+  }
+}
