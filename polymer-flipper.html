@@ -1,7 +1,15 @@
 <link rel="import" href="../lib/polymer/polymer.html">
 
-<polymer-element name="polymer-flipper">
+<polymer-element name="polymer-flipper" on-mouseenter="{{onMouseenter}}" on-mouseleave="{{onMouseleave}}">
   <template>
+    <style>
+        :host {
+            display: block;
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
     <div id="flipper"></div>
   </template>
   <script src="polymer-flipper.js"></script>
