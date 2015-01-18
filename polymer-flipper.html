@@ -3,14 +3,11 @@
 <polymer-element name="polymer-flipper" on-mouseenter="{{onMouseenter}}" on-mouseleave="{{onMouseleave}}">
   <template>
     <style>
-        :host {
-            display: block;
-            width: 100px;
-            height: 100px;
-            background-color: blue;
-        }
+        :host {}
     </style>
-    <div id="flipper"></div>
+    <div id="flipper">
+      <content></content>
+    </div>
   </template>
   <script src="polymer-flipper.js"></script>
 </polymer-element>

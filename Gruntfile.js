@@ -11,7 +11,8 @@ module.exports = function(grunt) {
           includePaths: require('node-bourbon').includePaths
         },
         files: {
-          'css/style.css': 'scss/style.scss'
+	  'css/style.css': 'scss/style.scss',
+	  'css/demo.css': 'scss/demo.scss'
         }
       }
     },
@@ -28,7 +29,7 @@ module.exports = function(grunt) {
         livereload: true
       },
       sass: {
-        files: 'scss/style.scss',
+	files: 'scss/*.scss',
         tasks: ['sass']
       }
     }
