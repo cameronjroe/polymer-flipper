@@ -2,11 +2,9 @@
 
 <polymer-element name="polymer-flipper" on-mouseenter="{{onMouseenter}}" on-mouseleave="{{onMouseleave}}">
   <template>
-    <style>
-        :host {}
-    </style>
-    <div id="flipper">
-      <content></content>
+    <link rel="stylesheet" href="polymer-flipper.css">
+    <div id="flipper" horizontal center-justified layout>
+      <content flex self-center></content>
     </div>
   </template>
   <script src="polymer-flipper.js"></script>
